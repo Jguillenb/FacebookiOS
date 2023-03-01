@@ -1,0 +1,24 @@
+diff a/Facebook-iOS/Facebook-iOS/UserStory/ProfileViewModel.swift b/Facebook-iOS/Facebook-iOS/UserStory/ProfileViewModel.swift	(rejected hunks)
+@@ -7,6 +7,8 @@
+ import Foundation
+ import UIKit
+ 
++// TODO: - protocol/class names should start with an uppercase letter
++// TODO: - fix Lint warnings
+ class profileView: UIViewController {
+     
+     
+@@ -55,11 +57,13 @@ class profileView: UIViewController {
+     // return button
+     let logOutButton: UIButton = {
+         let button = UIButton(type: .system)
++        // TODO: - never leave editor placeholders since it won't compile
+         button.setImage(<#T##image: UIImage?##UIImage?#>, for: .normal)
+         return button
+     }()
+     let addPostButton: UIButton = {
+         let button = UIButton(type: .system)
++        // TODO: - never leave editor placeholders since it won't compile
+         button.setImage(<#T##image: UIImage?##UIImage?#>, for: .normal)
+         return button
+     }()

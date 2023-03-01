@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  Facebook-iOS
+
+  Created by Jorge Guillén on 16/11/22.
+  
+*/
+"Welcome" = "Bienvenido";
+"Log in" = "Ingresa";
+"Continue with Facebook" = "Continua con Facebook";
